@@ -1,0 +1,15 @@
+.time-item-container {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.time-item {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.time-number {
+  font-weight: 700;
+}

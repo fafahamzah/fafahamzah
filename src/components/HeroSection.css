@@ -1,0 +1,17 @@
+.bg-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.section-hero {
+  text-align: center;
+}
+
+.hero-image {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}

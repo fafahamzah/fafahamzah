@@ -1,0 +1,20 @@
+.cta-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cta-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-item-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #479791;
+  border-radius: 50%;
+}
