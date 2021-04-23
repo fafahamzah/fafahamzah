@@ -39,10 +39,6 @@
   color: #ffffff;
 }
 
-.container-page {
-  background: url("/public/static/bg1.jpg");
-}
-
 .container-limit {
   max-width: 650px;
   margin-left: auto;
