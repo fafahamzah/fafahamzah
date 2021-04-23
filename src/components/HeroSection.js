@@ -1,6 +1,5 @@
 import React from "react";
 
-import bgTop from "../images/bg1.jpg";
 import hero from "../images/hero2.png";
 import "./HeroSection.css";
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import BrideSection from "../components/BrideSection";
 import CTASection from "../components/CTASection";
 import DateCountSection from "../components/DateCountSection";
@@ -13,20 +14,26 @@ import "./index.css";
 
 const IndexPage = () => {
   return (
-    <div className="container-page">
-      <div className="bg-color-purple-light cover-container">
-        <HeroSection />
-        <DateCountSection />
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Fafa &amp; Hamzah</title>
+      </Helmet>
+      <div className="container-page">
+        <div className="bg-color-purple-light cover-container">
+          <HeroSection />
+          <DateCountSection />
+        </div>
+        <Padding>
+          <BrideSection />
+          <WeddingDateSection />
+          <HealthProtocolSection />
+          <DoaSection />
+          <CTASection />
+        </Padding>
+        <Footer />
       </div>
-      <Padding>
-        <BrideSection />
-        <WeddingDateSection />
-        <HealthProtocolSection />
-        <DoaSection />
-        <CTASection />
-      </Padding>
-      <Footer />
-    </div>
+    </>
   );
 };
 
