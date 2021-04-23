@@ -11,7 +11,10 @@ const Footer = () => {
         &copy; 2021 - Fafa &amp; Hamzah
       </p>
       <p className="font-body color-text-purple text-center text-xs">
-        Credit arts to: @charupin
+        Credit arts to:{" "}
+        <a href="https://www.instagram.com/charupin/" target="_blank">
+          @charupin
+        </a>
       </p>
     </div>
   );
