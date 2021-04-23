@@ -6,8 +6,8 @@ import hamzahImg from "../images/hamzah.png";
 
 const BrideSection = () => {
   return (
-    <div>
-      <h3 className="text-center font-heading color-text-tosca text-5xl pt-24">
+    <div className="container-limit">
+      <h3 className="text-center font-heading color-text-purple text-5xl pt-24">
         Alhamdulillah
       </h3>
       <p className="font-body color-text-grey text-center pb-8 pt-4">
@@ -16,7 +16,7 @@ const BrideSection = () => {
       <div className="bride-item pb-10">
         <img src={fafaImg} alt="Fafa" className="bride-item-image" />
         <div>
-          <h4 className="font-heading color-text-tosca text-2xl">
+          <h4 className="font-heading color-text-purple text-3xl">
             Fahmi Syahida
           </h4>
           <p className="font-body color-text-grey">
@@ -28,7 +28,7 @@ const BrideSection = () => {
       <div className="bride-item pb-10">
         <img src={hamzahImg} alt="Hamzah" className="bride-item-image" />
         <div>
-          <h4 className="font-heading color-text-tosca text-2xl">
+          <h4 className="font-heading color-text-purple text-3xl">
             Dede Hamzah
           </h4>
           <p className="font-body color-text-grey">

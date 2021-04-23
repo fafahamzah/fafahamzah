@@ -4,9 +4,9 @@ import "./WeddingDateSection.css";
 
 const WeddingDateSection = () => {
   return (
-    <div className="pb-14 text-center">
+    <div className="pb-14 text-center container-limit">
       <div>
-        <h3 className="text-center font-heading color-text-tosca text-4xl pt-16 pb-8">
+        <h3 className="text-center font-heading color-text-purple text-4xl pt-16 pb-8">
           Akad Nikah
         </h3>
         <div className="date-container">
@@ -34,7 +34,7 @@ const WeddingDateSection = () => {
         </p>
       </div>
       <div>
-        <h3 className="text-center font-heading color-text-tosca text-4xl pt-16 pb-8">
+        <h3 className="text-center font-heading color-text-purple text-4xl pt-16 pb-8">
           Resepsi
         </h3>
         <div className="date-container">
@@ -64,7 +64,7 @@ const WeddingDateSection = () => {
 
       <a
         href="#"
-        class="mt-6 font-body font-thin text-sm inline-flex items-center justify-center px-5 py-1 border border-tosca rounded-full color-text-tosca bg-white "
+        class="mt-6 font-body font-thin text-sm inline-flex items-center justify-center px-5 py-1 border border-tosca rounded-full color-text-purple bg-white "
       >
         DAPATKAN PETUNJUK PETA
       </a>
