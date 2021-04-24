@@ -51,9 +51,9 @@ const DateCountSection = () => {
           target="_blank"
           rel="noreferrer"
           href={url}
-          className="mt-6 font-body font-thin text-sm inline-flex items-center justify-center px-5 py-1 border border-tosca rounded-full color-text-purple bg-white "
+          className="mt-6 font-heading font-thin text-md inline-flex items-center justify-center px-5 py-1 border border-tosca rounded-full color-text-purple bg-white "
         >
-          INGATKAN SAYA
+          Tandai di kalender
         </a>
       ) : null}
     </div>

@@ -19,7 +19,7 @@ const BrideSection = () => {
           <h4 className="font-heading color-text-purple text-3xl">
             Fahmi Syahida
           </h4>
-          <p className="font-body color-text-grey">
+          <p className="font-body color-text-grey text-sm">
             Putri ke-empat dari Bapak M. Jumal dan Ibu Mukaromah.
           </p>
         </div>
@@ -31,7 +31,7 @@ const BrideSection = () => {
           <h4 className="font-heading color-text-purple text-3xl">
             Dede Hamzah
           </h4>
-          <p className="font-body color-text-grey">
+          <p className="font-body color-text-grey text-sm">
             Putra ke-enam dari Bapak Ujer Efendi (Alm) dan Ibu Neneng Sofriah.
           </p>
         </div>

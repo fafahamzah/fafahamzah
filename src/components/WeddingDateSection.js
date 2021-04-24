@@ -4,7 +4,7 @@ import "./WeddingDateSection.css";
 
 const WeddingDateSection = () => {
   return (
-    <div className="pb-14 text-center container-limit">
+    <div className="pb-16 text-center container-limit">
       <div>
         <h3 className="text-center font-heading color-text-purple text-4xl pt-16 pb-8">
           Akad Nikah
@@ -27,10 +27,10 @@ const WeddingDateSection = () => {
           </div>
         </div>
         <p className="text-center color-text-grey font-light text-sm mt-4">
-          Masjid Istiqlal
+          Masjid Nurul Iman
         </p>
         <p className="text-center color-text-grey font-light text-sm">
-          Karang Tengah 001/007, Girirejo, Kaliangkrik, Magelang, Jawa Tengah
+          Karang Tengah, Girirejo, Kaliangkrik, Magelang, Jawa Tengah
         </p>
       </div>
       <div>
@@ -55,7 +55,7 @@ const WeddingDateSection = () => {
           </div>
         </div>
         <p className="text-center color-text-grey font-light text-sm mt-4">
-          Kediaman Mempelai Wanita
+          Rumah Bapak M Jumal
         </p>
         <p className="text-center color-text-grey font-light text-sm">
           Karang Tengah 001/007, Girirejo, Kaliangkrik, Magelang, Jawa Tengah

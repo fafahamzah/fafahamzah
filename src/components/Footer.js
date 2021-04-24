@@ -5,7 +5,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer pt-7 pb-6 container-limit text-center">
+    <div className="footer pt-6 pb-6 container-limit text-center">
       <StaticImage
         className="art-bottom pb-4"
         alt="flower"
