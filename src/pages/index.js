@@ -18,6 +18,7 @@ const IndexPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Fafa &amp; Hamzah</title>
+        <link rel="shortcut icon" type="image/png" href="favicon.ico?" />
       </Helmet>
       <div className="container-page">
         <div className="bg-color-purple-light cover-container">
