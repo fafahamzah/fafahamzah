@@ -11,6 +11,8 @@
 }
 
 .hero-image {
+  display: flex;
+  justify-content: center;
   max-height: 65vh;
   margin-left: auto;
   margin-right: auto;

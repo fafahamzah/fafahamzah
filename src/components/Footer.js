@@ -1,12 +1,17 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 import "./Footer.css";
-import flower from "../images/flower1.png";
 
 const Footer = () => {
   return (
     <div className="footer pt-7 pb-6 container-limit text-center">
-      <img className="art-bottom pb-4" alt="flower" src={flower} />
+      <StaticImage
+        className="art-bottom pb-4"
+        alt="flower"
+        placeholder="blurred"
+        src="../images/flower1.png"
+      />
       <p className="font-body color-text-purple text-center text-xs ">
         &copy; 2021 - Fafa &amp; Hamzah
       </p>

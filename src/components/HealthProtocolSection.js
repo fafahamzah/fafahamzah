@@ -1,7 +1,7 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 import "./HealthProtocolSection.css";
-import healthProtocolImage from "../images/health-protocol.png";
 
 const HealthProtocolSection = () => {
   return (
@@ -22,9 +22,10 @@ const HealthProtocolSection = () => {
           Pastikan kondisi badan dalam keadaan sehat saat menghadiri undangan.
           Terimakasih atas kerjasama Bapak/Ibu/Saudara/i.
         </p>
-        <img
-          src={healthProtocolImage}
+        <StaticImage
+          src="../images/health-protocol.png"
           alt="health-protocol"
+          placeholder="blurred"
           className="health-protocol-image"
         />
       </div>
