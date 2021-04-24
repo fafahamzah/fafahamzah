@@ -17,8 +17,17 @@ const IndexPage = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Fafa &amp; Hamzah</title>
+        <title>Pernikahan Fafa &amp; Hamzah</title>
+        <meta name="description" content="Magelang, 30 Mei 2021" />
         <link rel="shortcut icon" type="image/png" href="favicon.ico?" />
+        <meta content="Pernikahan Fafa &amp; Hamzah" property="og:title" />
+        <meta content="Magelang, 30 Mei 2021" property="og:Description" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          itemprop="image primaryImageOfPage"
+          content="/fafahamzah.png"
+        />
       </Helmet>
       <div className="container-page">
         <div className="bg-color-purple-light cover-container">
