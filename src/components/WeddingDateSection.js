@@ -27,7 +27,7 @@ const WeddingDateSection = () => {
           </div>
         </div>
         <p className="text-center color-text-grey font-light text-sm mt-4">
-          Masjid At Takwa
+          Masjid Istiqlal
         </p>
         <p className="text-center color-text-grey font-light text-sm">
           Karang Tengah 001/007, Girirejo, Kaliangkrik, Magelang, Jawa Tengah
