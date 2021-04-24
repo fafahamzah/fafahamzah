@@ -26,7 +26,7 @@ const IndexPage = () => {
         <meta
           property="og:image"
           itemprop="image primaryImageOfPage"
-          content="/fafahamzah.png"
+          content="https://fafahamzah.github.io/fafahamzah.png"
         />
       </Helmet>
       <div className="container-page">
