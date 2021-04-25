@@ -39,7 +39,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Is There Anything That Love Can Do - Radwimps
+            Ai ni Dekiru Koto wa Mada Aru Kai - Radwimps
           </a>
         </p>
       </div>
