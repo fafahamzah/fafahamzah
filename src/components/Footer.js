@@ -26,7 +26,7 @@ const Footer = () => {
         </a>
       </p>
       <div className="text-center pt-6 audio-container">
-        <audio controls autoplay loop>
+        <audio controls autoPlay loop>
           <source
             src="radwimps_-_is_there_still_anything_that_love_can_do.mp3"
             type="audio/mpeg"
