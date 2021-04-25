@@ -11,7 +11,7 @@ const BrideSection = () => {
         Alhamdulillah
       </h3>
       <p className="font-body color-text-grey text-center pb-8 pt-4">
-        Kami mengundang teman-teman semua ke acara pernikahan kami.
+        Insyaa Allah kami akan melaksanakan acara pernikahan putra-putri kami.
       </p>
       <div className="bride-item pb-10">
         <img src={fafaImg} alt="Fafa" className="bride-item-image" />
