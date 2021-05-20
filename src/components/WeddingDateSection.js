@@ -22,7 +22,7 @@ const WeddingDateSection = () => {
           </div>
           <div>
             <span className="text-highlight font-body color-text-grey">
-              09.00 WIB
+              08.30 WIB
             </span>
           </div>
         </div>
